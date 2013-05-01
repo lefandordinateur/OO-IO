@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="cdt.managedbuild.config.gnu.so.release.1112495032">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.release.1112495032" moduleId="org.eclipse.cdt.core.settings" name="Build Library">
@@ -47,6 +49,7 @@
 								<option defaultValue="true" id="gnu.cpp.link.so.release.option.shared.319488920" name="Shared (-shared)" superClass="gnu.cpp.link.so.release.option.shared" valueType="boolean"/>
 								<option id="gnu.cpp.link.option.paths.1738619106" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/usr/include/c++/4.7.2"/>
+									<listOptionValue builtIn="false" value="/usr/local/lib/scons-2.3.0/SCons/bin"/>
 								</option>
 								<option id="gnu.cpp.link.option.libs.919608339" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="/usr/include/c++/4.7.2"/>
@@ -89,7 +92,7 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.so.release.1112495032.1697988663." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.so.release.366414132" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.release.2053167852" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.release"/>
-							<builder buildPath="${ProjDirPath}/UnitTest" cleanBuildTarget="-c" command="scons" id="cdt.managedbuild.target.gnu.builder.so.release.1227201122" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.so.release"/>
+							<builder arguments="" buildPath="${ProjDirPath}/UnitTest" cleanBuildTarget="-c" command="scons" id="cdt.managedbuild.target.gnu.builder.so.release.1227201122" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.so.release"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.784844128" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.release.378615466" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.release">
 								<option id="gnu.cpp.compiler.so.release.option.optimization.level.309559673" name="Optimization Level" superClass="gnu.cpp.compiler.so.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
@@ -110,11 +113,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.release.369528039" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.release">
 								<option defaultValue="true" id="gnu.cpp.link.so.release.option.shared.378109604" name="Shared (-shared)" superClass="gnu.cpp.link.so.release.option.shared" valueType="boolean"/>
 								<option id="gnu.cpp.link.option.paths.71475379" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="../&quot;/usr/include/c++/4.7.2&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/lib/scons-2.3.0/SCons/bin"/>
 								</option>
-								<option id="gnu.cpp.link.option.libs.1513746161" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;/usr/include/c++/4.7.2&quot;"/>
-								</option>
+								<option id="gnu.cpp.link.option.libs.1513746161" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.24299895" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -141,6 +142,7 @@
 		<configuration configurationName="Build Library">
 			<resource resourceType="PROJECT" workspacePath="/OO-IO"/>
 		</configuration>
+		<configuration configurationName="Build And Run UnitTests"/>
 		<configuration configurationName="UnitTest"/>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">

@@ -1,6 +1,7 @@
 #ifndef SAMPLEDINPUT_T_H_
 #define SAMPLEDINPUT_T_H_
 
+#include "cxxtest/TestSuite.h"
 #include "../Input.h"
 #include "../SampledInput.h"
 
