@@ -1,6 +1,6 @@
 #include "cxxtest/TestSuite.h"
-#include "../Delegate.h"
-#include "../Notifier.h"
+#include "../Utils/Delegate.h"
+#include "../Utils/Notifier.h"
 #include "Mocks/DummyListener.h"
 
 class NotifierSuite: public CxxTest::TestSuite

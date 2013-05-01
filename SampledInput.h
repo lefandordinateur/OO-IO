@@ -2,7 +2,7 @@
 #define SAMPLEDINPUT_H_
 
 #include "Samplable.h"
-#include "Input.h"
+#include "Utils/Input.h"
 
 
 //------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 #include "cxxtest/TestSuite.h"
 
-#include "../Delegate.h"
+#include "../Utils/Delegate.h"
 #include "Mocks/DummyListener.h"
 
 class DelegateTestSuite: public CxxTest::TestSuite

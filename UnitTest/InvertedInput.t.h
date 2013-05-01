@@ -2,7 +2,7 @@
 #define INPUTINVERT_T_H_
 
 #include "cxxtest/TestSuite.h"
-#include "../InvertedInput.h"
+#include "../Utils/InvertedInput.h"
 #include "Mocks/DummyPhysicalInput.h"
 #include "Mocks/DummyListener.h"
 

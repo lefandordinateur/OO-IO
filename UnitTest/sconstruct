@@ -11,9 +11,9 @@ testList =  [
 ]
 
 sourceList =  [
-'../Notifier.cpp',
+'../Utils/Notifier.cpp',
 '../SampledInput.cpp',
-'../InvertedInput.cpp',
+'../Utils/InvertedInput.cpp',
 ]
 env.CxxTest('outputTest/delegaterunner',testList + sourceList, CXXFLAGS='-Wall -W -Wextra')
 
